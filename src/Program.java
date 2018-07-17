@@ -13,9 +13,9 @@ public class Program {
         if (a == 0 && b == 0) {
             System.out.println("Punkt w środku układu współrzędnych");
         } else if (a == 0 && b != 0) {
-            System.out.println("Punkt leży na osi X");
+            System.out.println("Punkt" + "(" + a + "," + b + ")" + "leży na osi X");
         } else if (b == 0 && a != 0) {
-            System.out.println("Punkt leży na osi Y");
+            System.out.println("Punkt" + "(" + a + "," + b + ")" + "leży na osi Y");
         } else if (a > 0 && b > 0) {
             System.out.println("Punkt" + "(" + a + "," + b + ")" + "leży w I cwiartce układu współrzędnych");
         } else if (a < 0 && b > 0) {
